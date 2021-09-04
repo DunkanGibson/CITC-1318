@@ -1,0 +1,9 @@
+6. The command-line argument needed to compile the complete program are
+	javac -d . GreetingsClass.java 
+	javac -d . Chapter1.java
+	javac -d . Chapter2.java
+	javac -d . Chapter3.java
+And as for debugging, I did have an issue trying to get the main class to recognize the classes and was getting GreetingsClass.java:11: error: cannot find symbol. Turned out I had forgot to add the import statement to the GreetingsClass.
+
+7. The command-line argument needed to execute the program is  
+java -cp . com.CITC1318.course.GreetingsClass
