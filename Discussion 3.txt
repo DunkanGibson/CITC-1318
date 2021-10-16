@@ -1,0 +1,14 @@
+1. The num variable in the Beverage2 class
+	The num variable in the Beverage2 class is an static variable of Beverage2, and therefore has static variable scope. The num variable is created when the class is loaded, and it will survive as long as the class stays loaded in the Java Virtual Machine.
+	
+2. The price variable in the Beverage2 class
+	The price variable in the Beverage2 class is an instance variable of Beverage2, and therefore has instance variable scope. Whenever a Beverage2 object is instantiated, it has a price variable that lives as long as that Beverage2 object exists.
+	
+3. The shots variable in the Espresso class
+	The shots variable in the Espresso class is an instance variable of Espresso, and therefore has instance variable scope. Whenever a Espresso object is instantiated, it has a shots variable that lives as long as that Espresso object exists.
+	
+4. The b variable in the TestBeverage2 class
+	The b variable in the TestBeverage2 class is an instance variable, and therefore has instance variable scope. Whenever b is instantiated it is a reference variable to an Espresso object, so it lives as long as that Espresso object exists.
+	
+5. The j variable in the TestBeverage2 class
+	The j variable in the TestBeverage2 class is an block variable in TestBeverage2, and therefore has block variable scope. The j variable lives as long as the method in which they are declared remains on the stack.
