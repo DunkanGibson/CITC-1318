@@ -1,7 +1,6 @@
 public class Point {
-
-    private int width = 0;
-    private int height = 0;
+    private int width;
+    private int height;
 
     public Point(int theWidth, int theHeight){
         width = theWidth;
@@ -23,6 +22,4 @@ public class Point {
     public void setHeight(int theHeight) {
         this.height = theHeight;
     }
-
-    
 }
